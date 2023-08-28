@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarefa</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="digite seu nome." required>
+        </div>
+        <div>
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" placeholder="coloque sua idade" required>
+        </div>
+        <div>
+            <label for="cor favorita">Cor favorita:</label>
+            <input type="color" id="cor favorita" placeholder="coloque sua cor favorita" required>
+        </div>
+        <div>
+            <label for="o quanto voce gosta de mim">o quanto voce gosta de mim</label>
+            <input type="range" id="o quanto voce gosta de mim" required>
+        </div>
+
+       <!-- input radio -->
+
+       <div>
+        <p>voce gosta de mim?</p>
+
+        <div>
+            <input type="radio" id="sim" name="gosta-mim">
+            <label for="sim">Sim</label>
+        </div>
+        <div>
+            <input type="radio" id="nao" name="gosta-mim">
+            <label for="nao">Não</label>
+        </div>
+        <div>
+            <input type="radio" id="talvez" name="gosta-mim">
+            <label for="talvez">Talvez</label>
+        </div>
+        <div>
+            <input type="radio" id="claro" name="gosta-mim">
+            <label for="claro">Claro</label>
+        </div>
+      
+
+    <!-- select e option -->
+
+    <div>
+        <label for="ano">Selecione seu ano de nascimento: </label>
+        <select name="ano" id="ano">
+            <option selected disabled>Selecione...</option>
+            <option value="2006">2006</option>
+            <option value="2007">2007</option>
+            <option value="2008">2008</option>
+            <option value="2008">2009</option>
+        </select>
+    </div>
+   
+
+
+        <button>enviar</button>
+    </form>
+</body>
+</html>

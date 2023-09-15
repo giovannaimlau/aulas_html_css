@@ -1,0 +1,10 @@
+h1 {
+    background: lightslategray;
+    color: black;
+}
+
+p {
+    background: cadetblue;
+    color: black;
+    font-size: 24px;
+}
